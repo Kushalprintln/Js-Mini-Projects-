@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./776686.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tost-add">
+            <div class="banner">
+                <img src="./images/toster.jpg" alt="">
+            </div>
+            <div class="info">
+                <div class="input">
+                    <input type="text" name="" id="taskname" placeholder="Add Tost Here">
+                    <input type="number" name="" id="countdown" placeholder="Set Time In Seconds">
+                </div>
+                <input type="checkbox" name="cancel" id="cancel">
+                <label for="cancel">Cancle</label>
+                <br>
+                <!-- success error and 2 buts -->
+                <input type="radio" name="color" id="success" value="success">
+                <label for="success">Success</label>
+                <input type="radio" name="color" id="error" value="error">
+                <label for="error">Error</label>
+                <br>
+                <button id="add">ADD TOAST</button>
+                <button id="clear">CLEAR ALL TOAST</button>
+            </div>
+        </div>
+        <div class="stack">
+            <h1 id="heading"> </h1>
+            <ul class="tostlist" id="todolist">
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

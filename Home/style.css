@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header, main{
+    padding: 10px 10%;
+}
+p{
+    margin: 10px;
+}
+.card img{
+    border: 1px solid black;
+    transition: all ease-in 0.3s;
+}
+.card, .card img{
+    width: 280px;
+    text-align: center;
+}
+.heading{
+    font-weight: 700;
+}
+.project-Section{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: fit-content;
+}
+.card.card:hover a img{
+    scale: 1.1;
+}
